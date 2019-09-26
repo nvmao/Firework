@@ -1,7 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56df8429-a61c-487d-928e-b16c19ae6bd9" name="Default Changelist" comment="" />
+    <list default="true" id="56df8429-a61c-487d-928e-b16c19ae6bd9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mao/Firework10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mao/Firework11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mao/Firework12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mao/Firework13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mao/Firework14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mao/Firework9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mao/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mao/State0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mao/State1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mao/State2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mao/State3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mao/State4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Firework/com/company/Firework.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Firework/com/company/Firework0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Firework/com/company/Firework1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Firework/com/company/Firework2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Firework/com/company/Firework3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Firework/com/company/Firework4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Firework/com/company/Firework5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Firework/com/company/Firework6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Firework/com/company/Firework7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Firework/com/company/Firework8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Firework/com/company/Game.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Firework/com/company/Particle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Firework/com/company/Random.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Firework/com/company/Run.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Firework/com/company/Vector2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Firework/com/company/Window.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/encapsulation/META-INF/encapsulation.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/encapsulation/com/company/Firework.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/encapsulation/com/company/Firework0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/encapsulation/com/company/Firework1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/encapsulation/com/company/Firework2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/encapsulation/com/company/Firework3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/encapsulation/com/company/Firework4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/encapsulation/com/company/Firework5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/encapsulation/com/company/Firework6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/encapsulation/com/company/Firework7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/encapsulation/com/company/Firework8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/encapsulation/com/company/Game.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/encapsulation/com/company/Particle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/encapsulation/com/company/Random.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/encapsulation/com/company/Run.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/encapsulation/com/company/Vector2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/encapsulation/com/company/Window.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Firework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mao/Firework.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Firework0.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mao/Firework0.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Firework1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mao/Firework1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Firework2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mao/Firework2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Firework3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mao/Firework3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Firework4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mao/Firework4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Firework5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mao/Firework5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Firework6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mao/Firework6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Firework7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mao/Firework7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Firework8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mao/Firework8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mao/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Particle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mao/Particle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Random.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mao/Random.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mao/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Vector2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mao/Vector2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mao/Window.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,13 +76,26 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1PquaN73v8mvOouHWIcPGqUrEzx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -35,11 +113,11 @@
   </component>
   <component name="RunManager" selected="Application.Game">
     <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Game" />
+      <option name="MAIN_CLASS_NAME" value="com.mao.Game" />
       <module name="Firework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.*" />
+          <option name="PATTERN" value="com.mao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -57,9 +135,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mao.Test" />
+      <module name="Firework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Game" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -74,7 +166,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566614010015</updated>
+      <workItem from="1567664526632" duration="1432000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
