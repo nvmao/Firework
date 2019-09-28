@@ -38,7 +38,7 @@ public class Firework7 extends Firework {
                     this.theParticles.get(i).apply_force(new Vector2(0,0.05));
                 }
                 //this.theParticles.get(i).reduceVel();
-                if(this.theParticles.get(i).getLife() < 0){
+                if(this.theParticles.get(i).getLife() < 0 && !stay){
                     this.theParticles.remove(i);
                 }
             }

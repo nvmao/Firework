@@ -4,15 +4,19 @@ public class Firework3 extends Firework {
     private int life = 150;
     private boolean startFiring = false;
     private Vector2 pos = new Vector2(0,0);
-    private Vector2 randomRadius = new Vector2((int)(Random.random(1,3)),(int)(Random.random(1,3)));
+    private Vector2 randomRadius ;
 
 
     public Firework3(Vector2 pos){
         super(pos);
+        int r = (int)(Random.random(1,3));
+        randomRadius = new Vector2(r,r);
     }
 
     public Firework3() {
         super();
+        int r = (int)(Random.random(1,3));
+        randomRadius = new Vector2(r,r);
     }
 
     @Override
@@ -36,7 +40,7 @@ public class Firework3 extends Firework {
             for(int i = 0 ; i < this.theParticles.size();i++){
                 this.theParticles.get(i).update();
                 this.theParticles.get(i).reduceVel();
-                if(this.theParticles.get(i).getLife() < 0){
+                if(this.theParticles.get(i).getLife() < 0 && !stay){
                     this.theParticles.remove(i);
                 }
             }

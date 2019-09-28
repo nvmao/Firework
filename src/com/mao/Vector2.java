@@ -8,6 +8,10 @@ public class Vector2 {
         this.x = x;
         this.y = y;
     }
+    public Vector2(Vector2 v){
+        this.x = v.x;
+        this.y = v.y;
+    }
 
     public void add(Vector2 a){
         this.x += a.x;
@@ -17,6 +21,12 @@ public class Vector2 {
     public void mult(Vector2 a){
         this.x *= a.x;
         this.y *= a.y;
+    }
+
+    public void normalize(){
+        double m = Math.sqrt(this.x*this.x + this.y*this.y);
+        this.x = this.x/m;
+         this.y = this.y/m;
     }
 
     public double getX() {

@@ -2,70 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56df8429-a61c-487d-928e-b16c19ae6bd9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mao/Firework10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mao/Firework11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mao/Firework12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mao/Firework13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mao/Firework14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mao/Firework9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mao/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mao/State0.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mao/State1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mao/State2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mao/State3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mao/State4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mao/KeyInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mao/State10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mao/State5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mao/State6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mao/State7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mao/State8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mao/State9.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Firework/com/company/Firework.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Firework/com/company/Firework0.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Firework/com/company/Firework1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Firework/com/company/Firework2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Firework/com/company/Firework3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Firework/com/company/Firework4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Firework/com/company/Firework5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Firework/com/company/Firework6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Firework/com/company/Firework7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Firework/com/company/Firework8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Firework/com/company/Game.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Firework/com/company/Particle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Firework/com/company/Random.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Firework/com/company/Run.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Firework/com/company/Vector2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Firework/com/company/Window.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/encapsulation/META-INF/encapsulation.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/encapsulation/com/company/Firework.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/encapsulation/com/company/Firework0.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/encapsulation/com/company/Firework1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/encapsulation/com/company/Firework2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/encapsulation/com/company/Firework3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/encapsulation/com/company/Firework4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/encapsulation/com/company/Firework5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/encapsulation/com/company/Firework6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/encapsulation/com/company/Firework7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/encapsulation/com/company/Firework8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/encapsulation/com/company/Game.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/encapsulation/com/company/Particle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/encapsulation/com/company/Random.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/encapsulation/com/company/Run.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/encapsulation/com/company/Vector2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/encapsulation/com/company/Window.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Firework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mao/Firework.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Firework0.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mao/Firework0.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Firework1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mao/Firework1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Firework2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mao/Firework2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Firework3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mao/Firework3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Firework4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mao/Firework4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Firework5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mao/Firework5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Firework6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mao/Firework6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Firework7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mao/Firework7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Firework8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mao/Firework8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mao/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Particle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mao/Particle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Random.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mao/Random.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mao/Run.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Vector2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mao/Vector2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mao/Window.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Firework/com/mao/Firework.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Firework/com/mao/Firework.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Firework/com/mao/Firework0.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Firework/com/mao/Firework0.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Firework/com/mao/Firework1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Firework/com/mao/Firework1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Firework/com/mao/Firework11.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Firework/com/mao/Firework11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Firework/com/mao/Firework13.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Firework/com/mao/Firework13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Firework/com/mao/Firework14.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Firework/com/mao/Firework14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Firework/com/mao/Firework4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Firework/com/mao/Firework4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Firework/com/mao/Firework6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Firework/com/mao/Firework6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Firework/com/mao/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Firework/com/mao/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Firework/com/mao/Particle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Firework/com/mao/Particle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Firework/com/mao/Run.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Firework/com/mao/Run.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Firework/com/mao/State.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Firework/com/mao/State.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Firework/com/mao/State1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Firework/com/mao/State1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Firework/com/mao/State2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Firework/com/mao/State2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Firework/com/mao/Vector2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Firework/com/mao/Vector2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mao/Firework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mao/Firework.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mao/Firework0.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mao/Firework0.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mao/Firework1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mao/Firework1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mao/Firework10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mao/Firework10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mao/Firework11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mao/Firework11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mao/Firework12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mao/Firework12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mao/Firework13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mao/Firework13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mao/Firework14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mao/Firework14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mao/Firework2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mao/Firework2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mao/Firework3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mao/Firework3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mao/Firework4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mao/Firework4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mao/Firework5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mao/Firework5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mao/Firework6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mao/Firework6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mao/Firework7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mao/Firework7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mao/Firework8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mao/Firework8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mao/Firework9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mao/Firework9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mao/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mao/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mao/Particle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mao/Particle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mao/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mao/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mao/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mao/State.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mao/State1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mao/State1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mao/State2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mao/State2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mao/Vector2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mao/Vector2.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

@@ -2,25 +2,22 @@ package com.mao;
 
 import java.awt.*;
 
-public class State1 extends State {
+public class State8 extends State {
 
-    int rand;
-    public State1(int life) {
+    public State8(int life) {
         super(life);
-        rand = (int)(Math.random() * 15);
     }
 
     @Override
     public void update(Graphics g) {
         time++;
         if(time > 5){
-            Firework firework = getFireWork(rand);
-            firework.canWindEffect();
-            firework.setWind(0.1);
+            Firework firework = getRandomFirework();
             fireworks.add(firework);
             reset();
         }
-
         updateFireworks(g);
+
     }
+
 }

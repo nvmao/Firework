@@ -41,7 +41,7 @@ public class Firework10 extends Firework {
                     radius.replace(this.theParticles.get(i),r + 0.2);
                 }
 
-                if(this.theParticles.get(i).getLife() < 0){
+                if(this.theParticles.get(i).getLife() < 0 && !stay){
                     this.theParticles.remove(i);
                 }
                 else{

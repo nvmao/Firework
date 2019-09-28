@@ -39,7 +39,7 @@ public class Firework6 extends Firework {
                 else{
                     this.theParticles.get(1).apply_force(new Vector2(0.3,0));
                 }
-                if(this.theParticles.get(i).getLife() < 0){
+                if(this.theParticles.get(i).getLife() < 0 && !stay){
                     this.theParticles.remove(i);
                 }
             }

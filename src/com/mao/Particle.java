@@ -20,6 +20,15 @@ public class Particle {
 //        color = Color.RED;
     }
 
+    public Particle(Particle other){
+        pos = new Vector2(other.getPos().x,other.getPos().y);
+        vel = new Vector2(other.getVel().x,other.getVel().y);
+        acc = new Vector2(other.getAcc().x,other.getAcc().y);
+        life    = 100;
+        radius = other.getRadius();
+        color = new Color((int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255));
+    }
+
     public Particle(Vector2 pos) {
         this.pos = pos;
         vel = new Vector2(0,-Random.random(9,16));
@@ -65,6 +74,12 @@ public class Particle {
 //        int x = (int)(this.pos.x);
 //        int y = (int)(this.pos.y);
 //        g.drawOval(x,y,radius,radius);
+    }
+
+    public void moveTo(Vector2 target){
+        Vector2 diff = new Vector2(target.x - pos.x,target.y - pos.y);
+        diff.normalize();
+        vel = new Vector2(diff.x*5,diff.y*5);
     }
 
     public Vector2 getPos() {

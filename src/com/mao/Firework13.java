@@ -16,7 +16,7 @@ public class Firework13 extends Firework {
         if(!isExplore && this.particle.getVel().y >= 0){
             isExplore = true;
 
-            for(float i = 0 ; i < Math.PI*3.5;i += 0.05) {
+            for(float i = 0 ; i < Math.PI*2.5;i += 0.1) {
 
                 for (int a = 0; a < a_arr.length; a++) {
                     Vector2 pos = new Vector2(this.particle.getPos().x,this.particle.getPos().y);
@@ -36,7 +36,7 @@ public class Firework13 extends Firework {
                 this.theParticles.get(i).update();
                 this.theParticles.get(i).apply_force(new Vector2(0,0.01));
                 this.theParticles.get(i).reduceVel();
-                if(this.theParticles.get(i).getLife() < 0){
+                if(this.theParticles.get(i).getLife() < 0 && !stay){
                     this.theParticles.remove(i);
                 }
             }

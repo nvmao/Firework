@@ -1,6 +1,8 @@
 package com.mao;
 
 import java.awt.*;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
 import java.awt.image.BufferStrategy;
 
 public class Game extends Canvas implements Runnable {
@@ -13,6 +15,8 @@ public class Game extends Canvas implements Runnable {
     private Run run = new Run();
 
     public Game(){
+        this.addKeyListener(new KeyInput(run));
+
         new Window(WIDTH,HEIGHT,"More Bug",this);
     }
 
@@ -32,7 +36,6 @@ public class Game extends Canvas implements Runnable {
     }
 
     public void run(){
-
         while(running){
             render();
         }
@@ -73,6 +76,7 @@ public class Game extends Canvas implements Runnable {
 //        stop();
     }
 
+
     private void tick(){
 
     }
@@ -84,8 +88,7 @@ public class Game extends Canvas implements Runnable {
             return;
         }
         Graphics g = bs.getDrawGraphics();
-
-        g.setColor(new Color(0, 0, 25,50));
+        g.setColor(new Color(0, 0, 25,30));
         g.fillRect(0,0,WIDTH,HEIGHT);
 
         run.render(g);

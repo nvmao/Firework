@@ -14,13 +14,13 @@ public class Firework11 extends Firework {
 
         if(!isExplore && this.particle.getVel().y >= 0){
             isExplore = true;
-            int totalsParticle = (int)(Random.random(50,200));
+            int totalsParticle = (int)(Random.random(50,120));
             for(int i = 0 ; i < totalsParticle;i++) {
                 Vector2 pos = new Vector2(this.particle.getPos().x,this.particle.getPos().y);
                 Vector2 vel = new Vector2( Math.cos(Math.random()),Math.sin(Math.random()));
                 vel.mult(new Vector2(4,4));
                 Particle newParticle = new Particle(pos,vel,this.particle.getColor());
-                newParticle.setLife(200);
+                newParticle.setLife(100);
                 this.theParticles.add(newParticle);
             }
             for(int i = 0 ; i < totalsParticle;i++) {
@@ -28,7 +28,7 @@ public class Firework11 extends Firework {
                 Vector2 vel = new Vector2(-Math.cos(Math.random()),Math.sin(Math.random()));
                 vel.mult(new Vector2(4,4));
                 Particle newParticle = new Particle(pos,vel,this.particle.getColor());
-                newParticle.setLife(200);
+                newParticle.setLife(100);
                 this.theParticles.add(newParticle);
             }
             for(int i = 0 ; i < totalsParticle;i++) {
@@ -36,7 +36,7 @@ public class Firework11 extends Firework {
                 Vector2 vel = new Vector2( Math.cos(Math.random()),-Math.sin(Math.random()));
                 vel.mult(new Vector2(4,4));
                 Particle newParticle = new Particle(pos,vel,this.particle.getColor());
-                newParticle.setLife(200);
+                newParticle.setLife(100);
                 this.theParticles.add(newParticle);
             }
             for(int i = 0 ; i < totalsParticle;i++) {
@@ -44,7 +44,7 @@ public class Firework11 extends Firework {
                 Vector2 vel = new Vector2(-Math.cos(Math.random()),-Math.sin(Math.random()));
                 vel.mult(new Vector2(4,4));
                 Particle newParticle = new Particle(pos,vel,this.particle.getColor());
-                newParticle.setLife(200);
+                newParticle.setLife(100);
                 this.theParticles.add(newParticle);
             }
         }
@@ -53,7 +53,7 @@ public class Firework11 extends Firework {
                 this.theParticles.get(i).update();
                 this.theParticles.get(i).apply_force(new Vector2(0,0.01));
                 this.theParticles.get(i).reduceVel();
-                if(this.theParticles.get(i).getLife() < 0){
+                if(this.theParticles.get(i).getLife() < 0 && !stay){
                     this.theParticles.remove(i);
                 }
             }

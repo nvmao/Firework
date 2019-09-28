@@ -8,7 +8,9 @@ public class Firework {
     protected ArrayList<Particle> theParticles;
     protected boolean isExplore;
     protected boolean windEffect = false;
+    protected boolean stay = false;
     double wind = 0;
+
 
     public Firework(){
         this.particle = new Particle();
@@ -44,6 +46,17 @@ public class Firework {
         return false;
     }
 
+    public boolean isFallDown(){
+        if(particle.getPos().y > 750){
+            return this.theParticles.size() <= 0;
+        }
+        return false;
+    }
+
+    public void setVel(Vector2 vel){
+        this.particle.setVel(vel);
+    }
+
     public void show(Graphics g){
 
         if(isExplore){
@@ -54,6 +67,10 @@ public class Firework {
         else{
             this.particle.show(g);
         }
+    }
+
+    public void setExplore(boolean explore){
+        this.isExplore = explore;
     }
 
     public void initWin(){
@@ -87,4 +104,28 @@ public class Firework {
         this.particle.setPos(pos);
     }
 
+    public boolean isExplore() {
+        return isExplore;
+    }
+
+    public boolean isStay() {
+        return stay;
+    }
+
+    public void setStay(boolean stay) {
+        this.stay = stay;
+    }
+
+    int particleLife(){
+        if(theParticles != null && theParticles.size() > 0)
+            return theParticles.get(0).getLife();
+        return 1000;
+    }
+
+    public ArrayList<Particle> getTheParticles() {
+        return theParticles;
+    }
+    public Particle getParticle(){
+        return particle;
+    }
 }

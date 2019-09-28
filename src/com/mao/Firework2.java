@@ -18,25 +18,25 @@ public class Firework2 extends Firework {
             isExplore = true;
         }
 
-        if(this.particle.getPos().y < 730){
+        if(this.particle.getPos().y < 730) {
 
-            Vector2 pos = new Vector2(this.particle.getPos().x,this.particle.getPos().y);
+            Vector2 pos = new Vector2(this.particle.getPos().x, this.particle.getPos().y);
             Vector2 vel = Random.random2D();
-            Particle newParticle = new Particle(pos,vel,this.particle.getColor());
-            newParticle.setLife(300);
+            Particle newParticle = new Particle(pos, vel, this.particle.getColor());
+            newParticle.setLife(100);
             this.theParticles.add(newParticle);
-
+        }
             for(int i = 0 ; i < this.theParticles.size();i++){
                 this.theParticles.get(i).update();
                 this.theParticles.get(i).reduceVel();
-                if(this.theParticles.get(i).getLife() < 0){
+                if(this.theParticles.get(i).getLife() < 0 && !stay){
                     this.theParticles.remove(i);
                 }
             }
-        }
-        else{
-            this.theParticles.removeAll(this.theParticles);
-        }
+//        }
+//        else{
+//            //this.theParticles.removeAll(this.theParticles);
+//        }
 
     }
 

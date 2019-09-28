@@ -130,6 +130,68 @@ public abstract class State {
         return null;
     }
 
+    public void updateFireworks(Graphics g){
+        for(int i = 0 ; i < fireworks.size();i++){
+            fireworks.get(i).update();
+            fireworks.get(i).show(g);
+            if(fireworks.get(i).isDeath()){
+                fireworks.remove(i);
+            }
+        }
+    }
+
+    public static Firework getFireWork(int i,Vector2 pos){
+        int randomNum = i;
+        switch (randomNum){
+            case 0:{
+                return new Firework0(pos);
+            }
+            case 1:{
+                return new Firework1(pos);
+            }
+            case 2:{
+                return new Firework2(pos);
+            }
+            case 3:{
+                return new Firework3(pos);
+            }
+            case 4:{
+                return new Firework4(pos);
+            }
+            case 5:{
+                return new Firework5(pos);
+            }
+            case 6:{
+                return new Firework6(pos);
+            }
+            case 7:{
+                return new Firework7(pos);
+            }
+            case 8:{
+                return new Firework8(pos);
+            }
+            case 9:{
+                return new Firework9(pos);
+            }
+            case 10:{
+                return new Firework10(pos);
+            }
+            case 11:{
+                return new Firework11(pos);
+            }
+            case 12:{
+                return new Firework12(pos);
+            }
+            case 13:{
+                return new Firework13(pos);
+            }
+            case 14:{
+                return new Firework14(pos);
+            }
+        }
+        return null;
+    }
+
     public static Firework getRandomFirework(Vector2 pos){
 
         int randomNum = (int)(Math.random() * 15);
