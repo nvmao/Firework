@@ -16,9 +16,10 @@ public class KeyInput extends KeyAdapter {
     public void keyPressed(KeyEvent e) {
         int key = e.getKeyCode();
         if(key == 39){
-            run.nextState(count);
-            if(count > 15){
-                count = 0;
+            run.nextState(run.count);
+            run.count++;
+            if(run.count > 11){
+                run.count = 0;
             }
         }
     }

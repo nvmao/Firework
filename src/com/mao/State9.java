@@ -11,6 +11,55 @@ public class State9 extends State {
         rand = (int)(Math.random() * 15);
         rand2 = (int)(Math.random() * 15);
 
+        int r = (int)(Math.random() * 10);
+        switch (r){
+            case 0:{
+                rand = 1;
+                rand2 = 1;
+                break;
+            }
+            case 1:{
+                rand = 0;
+                rand2 = 0;
+                break;
+            }
+            case 3:{
+                rand = 4;
+                rand2 = 0;
+                break;
+            }
+            case 4:{
+                rand = 8;
+                rand2 = 1;
+                break;
+            }
+            case 5:{
+                rand = 9;
+                rand2 = 0;
+                break;
+            }
+            case 6:{
+                rand = 10;
+                rand2 = 4;
+                break;
+            }
+            case 7:{
+                rand = 10;
+                rand2 = 8;
+                break;
+            }
+            case 8:{
+                rand = 2;
+                rand2 = 4;
+                break;
+            }
+            case 9:{
+                rand = 9;
+                rand2 = 9;
+                break;
+            }
+        }
+
     }
 
     @Override

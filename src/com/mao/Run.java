@@ -8,11 +8,12 @@ public class Run {
     ArrayList<State> states;
     int time;
     boolean next = false;
+    public int count = 0;
 
     public Run(){
         states = new ArrayList<>();
         time = 0;
-        states.add(new State10(1000));
+        states.add(getRandomState());
     }
 
 
@@ -24,7 +25,11 @@ public class Run {
                 time = 0;
             }
             if(next){
-                nextState();
+                nextState(count);
+                count++;
+                if(count > 11){
+                    count = 0;
+                }
             }else {
                 states.get(0).update(g);
             }
@@ -40,13 +45,13 @@ public class Run {
     public void nextState(int i){
         next = false;
         time = 0;
-        states.add(getRandomState());
+        states.add(getState(i));
         states.remove(0);
     }
 
     public State getRandomState(){
         int life = 1000;
-        int rand = (int)(Math.random() * 10);
+        int rand = (int)(Math.random() * 12);
         switch (rand){
             case 0:{
                 return new State0(life);
@@ -78,6 +83,13 @@ public class Run {
             case 9:{
                 return new State9(life * 2);
             }
+            case 10:{
+                return  new State10(life);
+            }
+            case 11:{
+                return new State11(life);
+            }
+
         }
         return null;
     }
@@ -111,10 +123,16 @@ public class Run {
                 return new State7((int)(life * 2.5));
             }
             case 8:{
-                return  new State8(life * 2);
+                return  new State8(life );
             }
             case 9:{
-                return new State9(life * 2);
+                return new State9(life*2);
+            }
+            case 10:{
+                return new State10(life);
+            }
+            case 11:{
+                return new State11(life);
             }
         }
         return null;
